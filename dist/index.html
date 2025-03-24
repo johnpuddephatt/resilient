@@ -1,141 +1,350 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" class="scroll-smooth">
 
-        <title>Laravel</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RESILIENT</title>
+    <meta name="description" content="Adversity is not destiny.">
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <link rel="icon" href="https://resilient.letsdance.agency/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="https://resilient.letsdance.agency/favicon.ico" sizes="32x32">
 
-        <!-- Styles / Scripts -->
-                    <link rel="preload" as="style" href="https://resilient.letsdance.agency/build/assets/app-CJ70LGK8.css" /><link rel="modulepreload" href="https://resilient.letsdance.agency/build/assets/app-Xaw6OIO1.js" /><link rel="stylesheet" href="https://resilient.letsdance.agency/build/assets/app-CJ70LGK8.css" /><script type="module" src="https://resilient.letsdance.agency/build/assets/app-Xaw6OIO1.js"></script>            </head>
-    <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
-            <img id="background" class="absolute -left-20 top-0 max-w-[877px]" src="https://laravel.com/assets/img/welcome/background.svg" alt="Laravel background" />
-            <div class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
-                <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
-                    <header class="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
-                        <div class="flex lg:justify-center lg:col-start-2">
-                            <svg class="h-12 w-auto text-white lg:h-16 lg:text-[#FF2D20]" viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z" fill="currentColor"/></svg>
-                        </div>
-                                            </header>
+    <meta name="og:image" content="https://resilient.letsdance.agency/opengraph.jpg">
 
-                    <main class="mt-6">
-                        <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
-                            <a
-                                href="https://laravel.com/docs"
-                                id="docs-card"
-                                class="flex flex-col items-start gap-6 overflow-hidden rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] md:row-span-3 lg:p-10 lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div id="screenshot-container" class="relative flex w-full flex-1 items-stretch">
-                                    <img
-                                        src="https://laravel.com/assets/img/welcome/docs-light.svg"
-                                        alt="Laravel documentation screenshot"
-                                        class="aspect-video h-full w-full flex-1 rounded-[10px] object-top object-cover drop-shadow-[0px_4px_34px_rgba(0,0,0,0.06)] dark:hidden"
-                                        onerror="
-                                            document.getElementById('screenshot-container').classList.add('!hidden');
-                                            document.getElementById('docs-card').classList.add('!row-span-1');
-                                            document.getElementById('docs-card-content').classList.add('!flex-row');
-                                            document.getElementById('background').classList.add('!hidden');
-                                        "
-                                    />
-                                    <img
-                                        src="https://laravel.com/assets/img/welcome/docs-dark.svg"
-                                        alt="Laravel documentation screenshot"
-                                        class="hidden aspect-video h-full w-full flex-1 rounded-[10px] object-top object-cover drop-shadow-[0px_4px_34px_rgba(0,0,0,0.25)] dark:block"
-                                    />
-                                    <div
-                                        class="absolute -bottom-16 -left-16 h-40 w-[calc(100%_+_8rem)] bg-gradient-to-b from-transparent via-white to-white dark:via-zinc-900 dark:to-zinc-900"
-                                    ></div>
-                                </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preload" as="style" href="https://resilient.letsdance.agency/build/assets/app-DznmuS_u.css" /><link rel="modulepreload" href="https://resilient.letsdance.agency/build/assets/app-7Gdm1L_r.js" /><link rel="stylesheet" href="https://resilient.letsdance.agency/build/assets/app-DznmuS_u.css" /><script type="module" src="https://resilient.letsdance.agency/build/assets/app-7Gdm1L_r.js"></script></head>
 
-                                <div class="relative flex items-center gap-6 lg:items-end">
-                                    <div id="docs-card-content" class="flex items-start gap-6 lg:flex-col">
-                                        <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                            <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FF2D20" d="M23 4a1 1 0 0 0-1.447-.894L12.224 7.77a.5.5 0 0 1-.448 0L2.447 3.106A1 1 0 0 0 1 4v13.382a1.99 1.99 0 0 0 1.105 1.79l9.448 4.728c.14.065.293.1.447.1.154-.005.306-.04.447-.105l9.453-4.724a1.99 1.99 0 0 0 1.1-1.789V4ZM3 6.023a.25.25 0 0 1 .362-.223l7.5 3.75a.251.251 0 0 1 .138.223v11.2a.25.25 0 0 1-.362.224l-7.5-3.75a.25.25 0 0 1-.138-.22V6.023Zm18 11.2a.25.25 0 0 1-.138.224l-7.5 3.75a.249.249 0 0 1-.329-.099.249.249 0 0 1-.033-.12V9.772a.251.251 0 0 1 .138-.224l7.5-3.75a.25.25 0 0 1 .362.224v11.2Z"/><path fill="#FF2D20" d="m3.55 1.893 8 4.048a1.008 1.008 0 0 0 .9 0l8-4.048a1 1 0 0 0-.9-1.785l-7.322 3.706a.506.506 0 0 1-.452 0L4.454.108a1 1 0 0 0-.9 1.785H3.55Z"/></svg>
-                                        </div>
+<body class="bg-black text-white">
+        
 
-                                        <div class="pt-3 sm:pt-5 lg:pt-0">
-                                            <h2 class="text-xl font-semibold text-black dark:text-white">Documentation</h2>
+    <div class="z-10 fixed  bottom-[-7.5vh] left-0 right-0 h-[25vh] rotate-180 pointer-events-none "
+        style="background-image: url('https://resilient.letsdance.agency/images/gradient.png'); background-size: contain;">
+    </div>
 
-                                            <p class="mt-4 text-sm/relaxed">
-                                                Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-                                            </p>
-                                        </div>
-                                    </div>
+    <div class="z-10 fixed  top-0 left-0 right-0 h-[150px] pointer-events-none "
+        style="background-image: url('https://resilient.letsdance.agency/images/gradient.png'); background-size: contain;">
+    </div>
 
-                                    <svg class="size-6 shrink-0 stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
-                                </div>
-                            </a>
+    <header class="h-[6.25vh] flex items-center  px-4  md:px-8 lg:px-12 fixed top-0 left-0 right-0 z-10 text-white">
+        <a href="#home" class="max-w-32 md:max-w-44">
+            <svg id="header-logo" class="invisible animate-duration-500 w-auto h-4 md:h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2468 145.86">
+    <path fill="#fff" class="animate-delay-100"
+        d="M138.45,84.44c.52.48.77.9,1.12,1,11,3.26,15.49,11.16,15.55,22.01.05,9.17-.24,18.34-.28,27.51,0,2.07.42,4.13.69,6.59h-57.76c-.13-2.87-.45-5.86-.37-8.84.15-5.7.51-11.4.8-17.1.41-7.8-3.02-11.91-10.75-12.32-5.43-.29-10.88-.11-16.33-.14-1.39,0-2.78,0-4.57,0-2.76,12.8-5.49,25.49-8.29,38.48H0C9.81,95.6,19.57,49.81,29.37,3.84c1.47,0,2.57,0,3.67,0,28.33,0,56.67-.15,85,.08,12.25.1,24.5,1.11,36.03,5.82,11.39,4.65,19.76,12.05,21.03,25.12,2.11,21.8-9.58,40.01-30.29,47.46-2.03.73-4.1,1.36-6.37,2.11ZM73.49,69.5c8.89,0,17.42.64,25.81-.16,10.45-.99,14.62-5.72,16.4-16.24,1.16-6.86-1.47-11.03-8.36-11.57-8.46-.66-16.99-.56-25.49-.6-.85,0-2.29,1.12-2.48,1.95-2.05,8.75-3.9,17.55-5.87,26.63Z" />
+    <path fill="#fff" class="animate-delay-200"
+        d="M308.91,57.4c-2.04,9.71-3.88,18.92-6.07,28.06-.2.84-2.64,1.62-4.04,1.63-18.84.11-37.68.2-56.51-.04-3.84-.05-5.46,1.04-6.02,4.76-.65,4.35-1.79,8.63-2.85,13.56h73.98c-1.89,9.25-3.58,17.89-5.42,26.5-2.17,10.1-2.23,10.09-12.8,10.09-38.79,0-77.59,0-116.38,0-1.64,0-3.29,0-5.35,0,9.87-46.33,19.63-92.11,29.4-137.96h130.53c-2.6,12.17-5.16,24.15-7.79,36.49h-72.22c-1.2,5.69-2.32,11.06-3.56,16.93h65.09Z" />
+    <path fill="#fff" class="animate-delay-300"
+        d="M316.12,95.17h52.68c.23.37.5.6.48.81-.78,10.16,3,14.23,13.35,15,5.32.4,10.77-.47,16.11-1.16,1.81-.23,3.67-1.42,5.15-2.61,6.06-4.87,5.25-12.34-2.07-14.56-8.85-2.68-18.12-3.94-27.1-6.22-9.68-2.45-19.61-4.49-28.79-8.27-14.89-6.14-19.38-17.02-16.45-32.77,3.41-18.34,14.17-30.46,30.98-36.86,27.52-10.48,55.8-11.19,83.99-2.82,13.3,3.95,23.1,12.45,25.72,26.87.88,4.86.45,9.97.3,14.96-.02.78-1.71,2.15-2.63,2.16-16.17.13-32.34.1-48.77.1-.12-.88-.27-1.52-.28-2.16-.14-8.43-4.06-12.65-12.46-12.82-4.28-.09-8.62.24-12.85.92-2.07.33-4.24,1.56-5.84,2.97-4.9,4.32-3.97,10.97,2.24,12.77,7.84,2.27,16.01,3.44,24.06,4.98,11.75,2.26,23.49,4.59,34.23,10.14,7.85,4.06,14.62,9.6,15.57,18.86,1.43,13.94-2.07,26.83-11.53,37.59-9.31,10.6-21.62,15.99-35.08,18.82-24.9,5.24-49.83,6.02-74.32-2-12.21-4-22.21-11.07-26.4-24.11-2.18-6.78-2.1-13.59-.3-20.6Z" />
 
-                            <a
-                                href="https://laracasts.com"
-                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g fill="#FF2D20"><path d="M24 8.25a.5.5 0 0 0-.5-.5H.5a.5.5 0 0 0-.5.5v12a2.5 2.5 0 0 0 2.5 2.5h19a2.5 2.5 0 0 0 2.5-2.5v-12Zm-7.765 5.868a1.221 1.221 0 0 1 0 2.264l-6.626 2.776A1.153 1.153 0 0 1 8 18.123v-5.746a1.151 1.151 0 0 1 1.609-1.035l6.626 2.776ZM19.564 1.677a.25.25 0 0 0-.177-.427H15.6a.106.106 0 0 0-.072.03l-4.54 4.543a.25.25 0 0 0 .177.427h3.783c.027 0 .054-.01.073-.03l4.543-4.543ZM22.071 1.318a.047.047 0 0 0-.045.013l-4.492 4.492a.249.249 0 0 0 .038.385.25.25 0 0 0 .14.042h5.784a.5.5 0 0 0 .5-.5v-2a2.5 2.5 0 0 0-1.925-2.432ZM13.014 1.677a.25.25 0 0 0-.178-.427H9.101a.106.106 0 0 0-.073.03l-4.54 4.543a.25.25 0 0 0 .177.427H8.4a.106.106 0 0 0 .073-.03l4.54-4.543ZM6.513 1.677a.25.25 0 0 0-.177-.427H2.5A2.5 2.5 0 0 0 0 3.75v2a.5.5 0 0 0 .5.5h1.4a.106.106 0 0 0 .073-.03l4.54-4.543Z"/></g></svg>
-                                </div>
+    <path fill="#fff" class="animate-delay-400"
+        d="M464.13,141.5c1.25-5.98,2.45-11.77,3.69-17.56,8.34-39.05,16.66-78.11,25.12-117.13.25-1.14,1.89-2.83,2.89-2.84,18.13-.16,36.27-.1,54.41-.07.37,0,.75.23,1.36.44-4.06,19.01-8.11,37.98-12.15,56.94-5.46,25.63-10.93,51.25-16.35,76.89-.46,2.17-.81,3.85-3.77,3.83-17.58-.12-35.16-.06-52.73-.08-.66,0-1.33-.22-2.46-.42Z" />
 
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Laracasts</h2>
+    <path fill="#fff" class="animate-delay-500"
+        d="M565.2,4h58.25c-7.17,33.41-14.28,66.55-21.5,100.25h62.53c-2.74,12.85-5.34,25.08-7.97,37.43h-120.66c9.83-46.12,19.59-91.9,29.35-137.68Z" />
 
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                    </p>
-                                </div>
+    <path fill="#fff" class="animate-delay-600"
+        d="M668.62,141.94c9.85-46.25,19.57-91.92,29.35-137.84h58.2c-1.67,8.14-3.28,16.22-5,24.28-7.74,36.21-15.58,72.4-23.17,108.64-.81,3.88-2.16,5.09-6.18,5.02-16.05-.26-32.1-.11-48.15-.11-1.5,0-3,0-5.05,0Z" />
+    <path fill="#fff" class="animate-delay-700"
+        d="M807.63,105.47h73.87c-1.07,5.63-1.99,10.73-3.02,15.81-1.1,5.44-2.5,10.83-3.4,16.3-.55,3.33-1.78,4.57-5.38,4.47-10.6-.28-21.21-.1-31.82-.1-30.15,0-60.29,0-90.44,0h-5.7c1.33-6.41,2.51-12.31,3.77-18.19,8.31-38.93,16.67-77.85,24.91-116.8.44-2.09.89-3.17,3.31-3.16,42.01.07,84.02.06,126.02.07.4,0,.8.16,1.71.36-1.57,7.57-3.13,15.11-4.71,22.65-.71,3.4-1.63,6.76-2.14,10.18-.41,2.71-1.57,3.6-4.36,3.59-21.35-.11-42.71.01-64.06-.13-3.53-.02-5.29.66-5.62,4.59-.33,3.96-1.59,7.84-2.54,12.23h65.06c-1.37,6.69-2.58,12.87-3.94,19.03-.77,3.49-.74,8.25-2.98,10.03-2.28,1.8-6.92.75-10.52.75-16.75.04-33.5.1-50.24-.05-2.97-.03-4.19.88-4.67,3.76-.8,4.74-1.97,9.41-3.1,14.62Z" />
+    <path fill="#fff" class="animate-delay-800"
+        d="M1013.21,76.14c5.1-24.01,10.19-48.01,15.31-72.13h51.01c0,1.08.17,2.04-.02,2.93-8.99,42.2-17.99,84.4-27.06,126.58-1.82,8.45-1.95,8.42-10.71,8.42-15.49,0-30.99-.08-46.48.07-2.93.03-4.43-.97-5.78-3.49-10.98-20.45-22.12-40.82-33.13-61.25-1.28-2.38-2.08-5.03-3.51-8.56-2.53,11.94-4.87,22.93-7.19,33.92-2.56,12.08-5.03,24.18-7.75,36.22-.27,1.19-1.97,2.94-3.03,2.95-15.91.15-31.82.06-47.73,0-.24,0-.49-.23-1.18-.58,1.21-5.92,2.39-11.99,3.68-18.04,8.27-38.67,16.61-77.32,24.77-116.01.55-2.61,1.41-3.4,4.01-3.39,17.73.1,35.46,0,53.18.16,1.4.01,3.42,1.2,4.09,2.42,11.5,20.96,22.87,42,34.18,63.08,1.13,2.11,1.7,4.53,2.52,6.8.28-.04.55-.07.83-.11Z" />
+    <path fill="#fff" class="animate-delay-900"
+        d="M1104.38,141.47c7.08-33.22,14.12-66.25,21.29-99.9h-42.05c2.73-12.89,5.34-25.19,7.97-37.58h142.41c-2.66,12.59-5.26,24.94-7.93,37.57-12.73,0-25.14.11-37.54-.07-3.33-.05-4.77.68-5.51,4.26-6.4,30.83-13.07,61.61-19.64,92.41-.46,2.14-.78,3.85-3.76,3.83-17.59-.13-35.17-.07-52.76-.09-.66,0-1.33-.23-2.48-.44Z" />
+</svg>
+        </a>
+        <nav class="ml-auto flex gap-3 md:gap-4 lg:gap-8">
+            <a href="#project" class=" hover:text-primary">
+                <span class="md:hidden">Project</span>
+                <span class="hidden md:inline">About the project</span>
+            </a>
+            <a href="#film" class=" hover:text-primary">
+                <span class="md:hidden">Film</span>
+                <span class="hidden md:inline">About the film</span>
+            </a>
+            <a href="#context" class="hover:text-primary">
+                <span class="md:hidden">Context</span>
+                <span class="hidden md:inline">Context &amp; Purpose</span>
+            </a>
+            <a href="#partners" class="hover:text-primary">
+                <span class="md:hidden">Partners</span>
+                <span class="hidden md:inline">Funders &amp; Partners</span>
+            </a>
+        </nav>
+    </header>
+    <main class="" id="home">
 
-                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
-                            </a>
+        <!-- Hero Section -->
+        <section
+            class="relative overflow-hidden flex items-center h-screen py-16 md:py-24 after:absolute after:opacity-30 after:pointer-events-none after:animate-pulsar after:inset-0 after:bg-(image:--noise)">
 
-                            <a
-                                href="https://laravel-news.com"
-                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g fill="#FF2D20"><path d="M8.75 4.5H5.5c-.69 0-1.25.56-1.25 1.25v4.75c0 .69.56 1.25 1.25 1.25h3.25c.69 0 1.25-.56 1.25-1.25V5.75c0-.69-.56-1.25-1.25-1.25Z"/><path d="M24 10a3 3 0 0 0-3-3h-2V2.5a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2V20a3.5 3.5 0 0 0 3.5 3.5h17A3.5 3.5 0 0 0 24 20V10ZM3.5 21.5A1.5 1.5 0 0 1 2 20V3a.5.5 0 0 1 .5-.5h14a.5.5 0 0 1 .5.5v17c0 .295.037.588.11.874a.5.5 0 0 1-.484.625L3.5 21.5ZM22 20a1.5 1.5 0 1 1-3 0V9.5a.5.5 0 0 1 .5-.5H21a1 1 0 0 1 1 1v10Z"/><path d="M12.751 6.047h2a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-2A.75.75 0 0 1 12 7.3v-.5a.75.75 0 0 1 .751-.753ZM12.751 10.047h2a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-2A.75.75 0 0 1 12 11.3v-.5a.75.75 0 0 1 .751-.753ZM4.751 14.047h10a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-10A.75.75 0 0 1 4 15.3v-.5a.75.75 0 0 1 .751-.753ZM4.75 18.047h7.5a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-7.5A.75.75 0 0 1 4 19.3v-.5a.75.75 0 0 1 .75-.753Z"/></g></svg>
-                                </div>
-
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Laravel News</h2>
-
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                    </p>
-                                </div>
-
-                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
-                            </a>
-
-                            <div class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                        <g fill="#FF2D20">
-                                            <path
-                                                d="M16.597 12.635a.247.247 0 0 0-.08-.237 2.234 2.234 0 0 1-.769-1.68c.001-.195.03-.39.084-.578a.25.25 0 0 0-.09-.267 8.8 8.8 0 0 0-4.826-1.66.25.25 0 0 0-.268.181 2.5 2.5 0 0 1-2.4 1.824.045.045 0 0 0-.045.037 12.255 12.255 0 0 0-.093 3.86.251.251 0 0 0 .208.214c2.22.366 4.367 1.08 6.362 2.118a.252.252 0 0 0 .32-.079 10.09 10.09 0 0 0 1.597-3.733ZM13.616 17.968a.25.25 0 0 0-.063-.407A19.697 19.697 0 0 0 8.91 15.98a.25.25 0 0 0-.287.325c.151.455.334.898.548 1.328.437.827.981 1.594 1.619 2.28a.249.249 0 0 0 .32.044 29.13 29.13 0 0 0 2.506-1.99ZM6.303 14.105a.25.25 0 0 0 .265-.274 13.048 13.048 0 0 1 .205-4.045.062.062 0 0 0-.022-.07 2.5 2.5 0 0 1-.777-.982.25.25 0 0 0-.271-.149 11 11 0 0 0-5.6 2.815.255.255 0 0 0-.075.163c-.008.135-.02.27-.02.406.002.8.084 1.598.246 2.381a.25.25 0 0 0 .303.193 19.924 19.924 0 0 1 5.746-.438ZM9.228 20.914a.25.25 0 0 0 .1-.393 11.53 11.53 0 0 1-1.5-2.22 12.238 12.238 0 0 1-.91-2.465.248.248 0 0 0-.22-.187 18.876 18.876 0 0 0-5.69.33.249.249 0 0 0-.179.336c.838 2.142 2.272 4 4.132 5.353a.254.254 0 0 0 .15.048c1.41-.01 2.807-.282 4.117-.802ZM18.93 12.957l-.005-.008a.25.25 0 0 0-.268-.082 2.21 2.21 0 0 1-.41.081.25.25 0 0 0-.217.2c-.582 2.66-2.127 5.35-5.75 7.843a.248.248 0 0 0-.09.299.25.25 0 0 0 .065.091 28.703 28.703 0 0 0 2.662 2.12.246.246 0 0 0 .209.037c2.579-.701 4.85-2.242 6.456-4.378a.25.25 0 0 0 .048-.189 13.51 13.51 0 0 0-2.7-6.014ZM5.702 7.058a.254.254 0 0 0 .2-.165A2.488 2.488 0 0 1 7.98 5.245a.093.093 0 0 0 .078-.062 19.734 19.734 0 0 1 3.055-4.74.25.25 0 0 0-.21-.41 12.009 12.009 0 0 0-10.4 8.558.25.25 0 0 0 .373.281 12.912 12.912 0 0 1 4.826-1.814ZM10.773 22.052a.25.25 0 0 0-.28-.046c-.758.356-1.55.635-2.365.833a.25.25 0 0 0-.022.48c1.252.43 2.568.65 3.893.65.1 0 .2 0 .3-.008a.25.25 0 0 0 .147-.444c-.526-.424-1.1-.917-1.673-1.465ZM18.744 8.436a.249.249 0 0 0 .15.228 2.246 2.246 0 0 1 1.352 2.054c0 .337-.08.67-.23.972a.25.25 0 0 0 .042.28l.007.009a15.016 15.016 0 0 1 2.52 4.6.25.25 0 0 0 .37.132.25.25 0 0 0 .096-.114c.623-1.464.944-3.039.945-4.63a12.005 12.005 0 0 0-5.78-10.258.25.25 0 0 0-.373.274c.547 2.109.85 4.274.901 6.453ZM9.61 5.38a.25.25 0 0 0 .08.31c.34.24.616.561.8.935a.25.25 0 0 0 .3.127.631.631 0 0 1 .206-.034c2.054.078 4.036.772 5.69 1.991a.251.251 0 0 0 .267.024c.046-.024.093-.047.141-.067a.25.25 0 0 0 .151-.23A29.98 29.98 0 0 0 15.957.764a.25.25 0 0 0-.16-.164 11.924 11.924 0 0 0-2.21-.518.252.252 0 0 0-.215.076A22.456 22.456 0 0 0 9.61 5.38Z"
-                                            />
-                                        </g>
-                                    </svg>
-                                </div>
-
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Vibrant Ecosystem</h2>
-
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white dark:focus-visible:ring-[#FF2D20]">Forge</a>, <a href="https://vapor.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Vapor</a>, <a href="https://nova.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Nova</a>, <a href="https://envoyer.io" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Envoyer</a>, and <a href="https://herd.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Herd</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Echo</a>, <a href="https://laravel.com/docs/horizon" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Telescope</a>, and more.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </main>
-
-                    <footer class="py-16 text-center text-sm text-black dark:text-white/70">
-                        Laravel v11.40.0 (PHP v8.3.9)
-                    </footer>
+            <div class="overflow-hidden absolute top-[6.25%] left-0 w-full bottom-[6.25%] h-full">
+                <div class="  animate-hue-rotate ml-auto w-1/2 h-[17.5%]  bg-linear-(--band) -translate-x-[25%]">
+                </div>
+                <div
+                    class=" hover:translate-x-[-15%] transition duration-2000 animate-hue-rotate ml-auto  w-1/2 h-[17.5%] animate-delay-2500  bg-linear-(--band) -translate-x-[10%]">
+                </div>
+                <div
+                    class="hover:translate-x-[-5%] transition duration-2000  animate-hue-rotate ml-auto  w-1/2 h-[17.5%] animate-delay-1000  bg-linear-(--band)">
+                </div>
+                <div
+                    class="hover:translate-x-[-20%]  transition duration-2000 animate-hue-rotate ml-auto  w-1/2 h-[17.5%]  animate-delay-3000  bg-linear-(--band) -translate-x-[25%]">
+                </div>
+                <div
+                    class="hover:translate-x-[-35%]  transition duration-2000  animate-hue-rotate ml-auto  w-1/2 h-[17.5%] animate-delay-2000 bg-linear-(--band) -translate-x-[10%]">
                 </div>
             </div>
+            <div class="overflow-hidden container pointer-events-none  relative ">
+                <svg class="animate w-[calc(5/3*100%)] lg:w-[calc(4/3*100%)] h-auto block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2468 145.86">
+    <path fill="#fff" class="animate-delay-100"
+        d="M138.45,84.44c.52.48.77.9,1.12,1,11,3.26,15.49,11.16,15.55,22.01.05,9.17-.24,18.34-.28,27.51,0,2.07.42,4.13.69,6.59h-57.76c-.13-2.87-.45-5.86-.37-8.84.15-5.7.51-11.4.8-17.1.41-7.8-3.02-11.91-10.75-12.32-5.43-.29-10.88-.11-16.33-.14-1.39,0-2.78,0-4.57,0-2.76,12.8-5.49,25.49-8.29,38.48H0C9.81,95.6,19.57,49.81,29.37,3.84c1.47,0,2.57,0,3.67,0,28.33,0,56.67-.15,85,.08,12.25.1,24.5,1.11,36.03,5.82,11.39,4.65,19.76,12.05,21.03,25.12,2.11,21.8-9.58,40.01-30.29,47.46-2.03.73-4.1,1.36-6.37,2.11ZM73.49,69.5c8.89,0,17.42.64,25.81-.16,10.45-.99,14.62-5.72,16.4-16.24,1.16-6.86-1.47-11.03-8.36-11.57-8.46-.66-16.99-.56-25.49-.6-.85,0-2.29,1.12-2.48,1.95-2.05,8.75-3.9,17.55-5.87,26.63Z" />
+    <path fill="#fff" class="animate-delay-200"
+        d="M308.91,57.4c-2.04,9.71-3.88,18.92-6.07,28.06-.2.84-2.64,1.62-4.04,1.63-18.84.11-37.68.2-56.51-.04-3.84-.05-5.46,1.04-6.02,4.76-.65,4.35-1.79,8.63-2.85,13.56h73.98c-1.89,9.25-3.58,17.89-5.42,26.5-2.17,10.1-2.23,10.09-12.8,10.09-38.79,0-77.59,0-116.38,0-1.64,0-3.29,0-5.35,0,9.87-46.33,19.63-92.11,29.4-137.96h130.53c-2.6,12.17-5.16,24.15-7.79,36.49h-72.22c-1.2,5.69-2.32,11.06-3.56,16.93h65.09Z" />
+    <path fill="#fff" class="animate-delay-300"
+        d="M316.12,95.17h52.68c.23.37.5.6.48.81-.78,10.16,3,14.23,13.35,15,5.32.4,10.77-.47,16.11-1.16,1.81-.23,3.67-1.42,5.15-2.61,6.06-4.87,5.25-12.34-2.07-14.56-8.85-2.68-18.12-3.94-27.1-6.22-9.68-2.45-19.61-4.49-28.79-8.27-14.89-6.14-19.38-17.02-16.45-32.77,3.41-18.34,14.17-30.46,30.98-36.86,27.52-10.48,55.8-11.19,83.99-2.82,13.3,3.95,23.1,12.45,25.72,26.87.88,4.86.45,9.97.3,14.96-.02.78-1.71,2.15-2.63,2.16-16.17.13-32.34.1-48.77.1-.12-.88-.27-1.52-.28-2.16-.14-8.43-4.06-12.65-12.46-12.82-4.28-.09-8.62.24-12.85.92-2.07.33-4.24,1.56-5.84,2.97-4.9,4.32-3.97,10.97,2.24,12.77,7.84,2.27,16.01,3.44,24.06,4.98,11.75,2.26,23.49,4.59,34.23,10.14,7.85,4.06,14.62,9.6,15.57,18.86,1.43,13.94-2.07,26.83-11.53,37.59-9.31,10.6-21.62,15.99-35.08,18.82-24.9,5.24-49.83,6.02-74.32-2-12.21-4-22.21-11.07-26.4-24.11-2.18-6.78-2.1-13.59-.3-20.6Z" />
+
+    <path fill="#fff" class="animate-delay-400"
+        d="M464.13,141.5c1.25-5.98,2.45-11.77,3.69-17.56,8.34-39.05,16.66-78.11,25.12-117.13.25-1.14,1.89-2.83,2.89-2.84,18.13-.16,36.27-.1,54.41-.07.37,0,.75.23,1.36.44-4.06,19.01-8.11,37.98-12.15,56.94-5.46,25.63-10.93,51.25-16.35,76.89-.46,2.17-.81,3.85-3.77,3.83-17.58-.12-35.16-.06-52.73-.08-.66,0-1.33-.22-2.46-.42Z" />
+
+    <path fill="#fff" class="animate-delay-500"
+        d="M565.2,4h58.25c-7.17,33.41-14.28,66.55-21.5,100.25h62.53c-2.74,12.85-5.34,25.08-7.97,37.43h-120.66c9.83-46.12,19.59-91.9,29.35-137.68Z" />
+
+    <path fill="#fff" class="animate-delay-600"
+        d="M668.62,141.94c9.85-46.25,19.57-91.92,29.35-137.84h58.2c-1.67,8.14-3.28,16.22-5,24.28-7.74,36.21-15.58,72.4-23.17,108.64-.81,3.88-2.16,5.09-6.18,5.02-16.05-.26-32.1-.11-48.15-.11-1.5,0-3,0-5.05,0Z" />
+    <path fill="#fff" class="animate-delay-700"
+        d="M807.63,105.47h73.87c-1.07,5.63-1.99,10.73-3.02,15.81-1.1,5.44-2.5,10.83-3.4,16.3-.55,3.33-1.78,4.57-5.38,4.47-10.6-.28-21.21-.1-31.82-.1-30.15,0-60.29,0-90.44,0h-5.7c1.33-6.41,2.51-12.31,3.77-18.19,8.31-38.93,16.67-77.85,24.91-116.8.44-2.09.89-3.17,3.31-3.16,42.01.07,84.02.06,126.02.07.4,0,.8.16,1.71.36-1.57,7.57-3.13,15.11-4.71,22.65-.71,3.4-1.63,6.76-2.14,10.18-.41,2.71-1.57,3.6-4.36,3.59-21.35-.11-42.71.01-64.06-.13-3.53-.02-5.29.66-5.62,4.59-.33,3.96-1.59,7.84-2.54,12.23h65.06c-1.37,6.69-2.58,12.87-3.94,19.03-.77,3.49-.74,8.25-2.98,10.03-2.28,1.8-6.92.75-10.52.75-16.75.04-33.5.1-50.24-.05-2.97-.03-4.19.88-4.67,3.76-.8,4.74-1.97,9.41-3.1,14.62Z" />
+    <path fill="#fff" class="animate-delay-800"
+        d="M1013.21,76.14c5.1-24.01,10.19-48.01,15.31-72.13h51.01c0,1.08.17,2.04-.02,2.93-8.99,42.2-17.99,84.4-27.06,126.58-1.82,8.45-1.95,8.42-10.71,8.42-15.49,0-30.99-.08-46.48.07-2.93.03-4.43-.97-5.78-3.49-10.98-20.45-22.12-40.82-33.13-61.25-1.28-2.38-2.08-5.03-3.51-8.56-2.53,11.94-4.87,22.93-7.19,33.92-2.56,12.08-5.03,24.18-7.75,36.22-.27,1.19-1.97,2.94-3.03,2.95-15.91.15-31.82.06-47.73,0-.24,0-.49-.23-1.18-.58,1.21-5.92,2.39-11.99,3.68-18.04,8.27-38.67,16.61-77.32,24.77-116.01.55-2.61,1.41-3.4,4.01-3.39,17.73.1,35.46,0,53.18.16,1.4.01,3.42,1.2,4.09,2.42,11.5,20.96,22.87,42,34.18,63.08,1.13,2.11,1.7,4.53,2.52,6.8.28-.04.55-.07.83-.11Z" />
+    <path fill="#fff" class="animate-delay-900"
+        d="M1104.38,141.47c7.08-33.22,14.12-66.25,21.29-99.9h-42.05c2.73-12.89,5.34-25.19,7.97-37.58h142.41c-2.66,12.59-5.26,24.94-7.93,37.57-12.73,0-25.14.11-37.54-.07-3.33-.05-4.77.68-5.51,4.26-6.4,30.83-13.07,61.61-19.64,92.41-.46,2.14-.78,3.85-3.76,3.83-17.59-.13-35.17-.07-52.76-.09-.66,0-1.33-.23-2.48-.44Z" />
+</svg>
+            </div>
+        </section>
+        <div data-scene data-scene-hook="onCenter" data-scene-duration="200%">
+            <section class=" min-h-[60vh] flex origin-top-left flex-col justify-center md:items-center container ">
+                <p data-animate-position="start" data-animate data-animate-from-alpha="0" data-animate
+                    data-animate-to-alpha="1" data-animate-from-y="50" data-animate-from-scale="0.9"
+                    data-animate-to-scale="1" data-animate-to-y="0" data-animate-duration="15"
+                    class="max-w-xs md:max-w-none text-balance text-3xl">Adversity is not destiny.</p>
+
+                <img data-animate-position="end" data-animate data-animate-from-alpha="0" data-animate-to-alpha="1"
+                    data-animate-from-y="000" data-animate-to-y="800" data-animate-from-rotation="0"
+                    data-animate-to-rotation="20" data-animate-duration="25"
+                    class="-z-10 w-full -left-[20%] top-[80%] will-change-transform origin-center  absolute "
+                    src="https://resilient.letsdance.agency/images/intro.png" />
+
+            </section>
+
+            <!-- First Content Section -->
+            <section id="project" class="pb-16 pt-[20vh] md:py-[20vh] flex items-center  container">
+                <div class="grid w-full md:grid-cols-2 gap-6  md:gap-24">
+                    <div>
+                        <h2 class="text-sm uppercase text-primary mb-2">Introducing the project</h2>
+                        <h3 class="max-w-lg text-balance text-2xl mb-8">RESILIENT uses original cinema to engage vulnerable
+                            young people at a critical moment in their lives.</h3>
+                    </div>
+                    <div class="prose md:mt-6">
+                        <p>RESILIENT is a creative learning intervention for young people aged 15-18, who are under the care
+                            of
+                            NHS child and adolescent mental health services (CAMHS).
+                        </p>
+                        <p>
+                            It uses a purpose-made, short film thriller to explore adversity, self-worth and the power of
+                            human connection - so as to help young people prepare for life after they are discharged from
+                            care.
+                        </p>
+                        <p>
+                            RESILIENT is a collaboration between current and former CAMHS patients, specialist CAMHS
+                            teachers
+                            and clinicians, homelessness researchers, and an Oscar-winning team of filmmakers. It is
+                            independently evaluated by the Anna Freud Centre for Children and Families’ Evidence Based
+                            Practice
+                            Unit.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Second Content Section -->
+            <section data-scene data-scene-hook="onCenter" data-scene-duration="100%" id="film"
+                class="py-16 md:py-[20vh] container">
+                <div>
+                    <h2 class="text-sm uppercase text-primary mb-2">Introducing the film</h2>
+                    <h3 class="text-2xl mb-8">A quest for love, freedom and survival</h3>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6  md:pt-[10vh] md:gap-24  items-center">
+                    <div>
+                        <img class="w-1/2 md:mx-auto h-auto" sizes="(max-width: 48rem) 100vw, 48rem"
+                            src="https://resilient.letsdance.agency/images/poster.jpg" srcset="https://resilient.letsdance.agency/glide/images/poster.jpg?width=400 400w, https://resilient.letsdance.agency/glide/images/poster.jpg?width=800 800w" style="max-width: 565px" loading="lazy" />
+                    </div>
+
+                    <div class="prose ">
+                        <p><em>The Mouse</em> is a tender love story concealed within a fierce urban thriller. It tells the
+                            story of
+                            a
+                            fugitive boy battling to catch a mouse from the London Underground and give it to the girl he
+                            loves.
+                        </p>
+                        <p>On his journey the hero Jakub confronts trauma, mental illness and homelessness, and these themes
+                            are
+                            discussed and explored in the learning sessions and creative exercises that interact with the
+                            film.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 pt-3 md:pt-[10vh] gap-24  items-center">
+
+                    <div class="prose">
+                        <p><em>The Mouse</em> was made by a team of leading film industry professionals, including Judy
+                            Counihan,
+                            producer of the two Oscar-wining films <em>No Man’s Land</em> and <em>Antonia’s Line</em>;
+                            Walter Donohue, Story
+                            Editor of the iconic <em>Paris</em>, <em>Texas</em> and <em>28 Days Later</em>; and Casting
+                            Director Des Hamilton, renowned
+                            for
+                            his street casting on films such as <em>Morvern Callar</em>, <em>This is England</em> and
+                            <em>JoJo Rabbit</em>. Lead actor
+                            in
+                            <em>The Mouse</em>, Finn Bennett, went on to star opposite Jodie Foster in <em>True Detective,
+                                Night
+                                Country</em>.
+                        </p>
+                    </div>
+                    <div class="md:-ml-12 md:w-[calc(100%+3rem)] relative">
+                        <img data-animate-position="end" data-animate data-animate-from-alpha="0" data-animate-to-alpha="1"
+                            data-animate-duration="10" data-animate-from-y="-100" data-animate-to-y="0"
+                            data-animate-from-rotation="20" data-animate-to-rotation="0"
+                            class="-translate-y-full md:-translate-y-1/2 w-1/2 absolute lg:-translate-x-1/3  h-auto"
+                            src="https://resilient.letsdance.agency/images/ticket.svg" />
+                        <img class="w-full h-auto" sizes="(max-width: 48rem) 100vw, 48rem"
+                            src="https://resilient.letsdance.agency/images/car-window.jpg" srcset="https://resilient.letsdance.agency/glide/images/car-window.jpg?width=400 400w, https://resilient.letsdance.agency/glide/images/car-window.jpg?width=800 800w, https://resilient.letsdance.agency/glide/images/car-window.jpg?width=1200 1200w, https://resilient.letsdance.agency/glide/images/car-window.jpg?width=1600 1600w, https://resilient.letsdance.agency/glide/images/car-window.jpg?width=2000 2000w" style="max-width: 1013px" loading="lazy" />
+                    </div>
+                </div>
+
+            </section>
         </div>
-    </body>
+
+        <!-- Third Content Section -->
+        <section id="context" data-scene data-scene-hook="onCenter" data-scene-duration="150%"
+            class="pt-16 md:pt-[20vh] pb-8 md:pb-[10vh]  overflow-hidden space-y-12 container">
+            <div>
+                <h2 class="text-sm uppercase text-primary mb-2">Context & Purpose</h2>
+                <h3 class="text-2xl mb-8">A unique opportunity</h3>
+                <p class="font-medium max-w-4xl text-balance text-lg">As they embark on their early adult lives, young
+                    people who have
+                    experienced abuse and neglect as children, and developed serious mental illness as teenagers, are at the
+                    highest possible risk of falling into crises of isolation, despair, and rough sleeping.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 items-center  md:gap-24">
+                <div
+                    class="w-2/3 mx-auto  md:w-full relative -translate-y-8 md:-translate-y-24 translate-x-1/3 rotate-[-25deg]">
+                    <img data-animate-position="start" data-animate data-animate-from-alpha="0" data-animate-from-y="-200"
+                        data-animate-duration="3" src="https://resilient.letsdance.agency/images/schism-left.png" />
+                    <img data-animate-position="start" data-animate data-animate-from-alpha="0" data-animate-to-alpha="1"
+                        data-animate-to-y="-200" data-animate-duration="3"
+                        class="right-full absolute top-[50%] border-dashed border-white/30"
+                        src="https://resilient.letsdance.agency/images/schism-right.png" />
+                </div>
+
+                <div class="prose">
+
+                    <p>Many of these young people are treated by NHS child and adolescent mental health services, for
+                        sustained periods of time, as they approach the age of eighteen. RESILIENT has been created to help
+                        staff at these services fulfil the unique opportunity they have - to work creatively and generously
+                        with these young people, and help them navigate safely through the next phase of their lives.
+                    </p>
+                    <p>
+                        Pathway is collaborating now with CAMHS services in England to support their use of RESILIENT. And
+                        we are developing a series of related projects and interventions - in partnership with experts by
+                        experience, CAMHS services, researchers, and creative professionals - to further help NHS child and
+                        adolescent mental healthcare services to meet the needs of the most vulnerable children under their
+                        care.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 pt-16 md:pt-[20vh] items-center gap-6  md:gap-24">
+                <div>
+                    <blockquote class="max-w-lg text-xl font-medium prose text-white mb-6">
+                        <p>“Watching and discussing <em>The Mouse</em> has engaged and stimulated our most hard-to-reach
+                            young
+                            people.</p>
+                        <p>I think it’s an excellent resource.”</p>
+                    </blockquote>
+                    <p class="text-sm max-w-md text-primary">Teacher, Simmons House Adolescent Unit
+                        (Whittington Health NHS).</p>
+                </div>
+                <div class="md:-ml-12 md:w-[calc(100%+3rem)]">
+                    <img class="w-full h-auto" sizes="(max-width: 48rem) 100vw, 48rem"
+                        src="https://resilient.letsdance.agency/images/examined-by-psychiatrist.jpg" srcset="https://resilient.letsdance.agency/glide/images/examined-by-psychiatrist.jpg?width=400 400w, https://resilient.letsdance.agency/glide/images/examined-by-psychiatrist.jpg?width=800 800w, https://resilient.letsdance.agency/glide/images/examined-by-psychiatrist.jpg?width=1200 1200w, https://resilient.letsdance.agency/glide/images/examined-by-psychiatrist.jpg?width=1600 1600w, https://resilient.letsdance.agency/glide/images/examined-by-psychiatrist.jpg?width=2000 2000w, https://resilient.letsdance.agency/glide/images/examined-by-psychiatrist.jpg?width=2500 2500w, https://resilient.letsdance.agency/glide/images/examined-by-psychiatrist.jpg?width=3000 3000w, https://resilient.letsdance.agency/glide/images/examined-by-psychiatrist.jpg?width=3500 3500w" style="max-width: 1920px" loading="lazy" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Funders Section -->
+        <section id="partners" class="border-t border-gray-800 pt-8 md:pt-[10vh] pb-8 md:pb-[10vh] container ">
+            <div class="grid md:grid-cols-2 gap-6  md:gap-24">
+                <div>
+                    <h2 class="text-xs uppercase text-primary mb-2">Funders &amp; partners</h2>
+
+                    <h3 class="text-2xl mb-4 md:mb-8">Our funders</h3>
+                </div>
+                <div>
+                    <img class="pt-6 w-full h-auto" sizes="(max-width: 48rem) 100vw, 48rem"
+                        src="https://resilient.letsdance.agency/images/logos2.png" srcset="https://resilient.letsdance.agency/glide/images/logos2.png?width=400 400w, https://resilient.letsdance.agency/glide/images/logos2.png?width=800 800w, https://resilient.letsdance.agency/glide/images/logos2.png?width=1200 1200w" style="max-width: 697px" loading="lazy" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section class="border-b border-gray-800 pb-6 md:pb-[10vh] container">
+            <div class="grid md:grid-cols-2 gap-6  md:gap-24">
+                <div>
+                    <h3 class="text-2xl mb-4 md:mb-8">Our partners</h3>
+                </div>
+                <div class="prose">
+                    <p>RESILIENT was developed in partnership with patients, teachers and clinicians at Simmons House
+                        Adolescent Unit
+                        (Whittington Health NHS) in Haringey, north-east London.</p>
+                    <p>Independent evaluation research is conducted by the Anna Freud Centre for Children and Families’
+                        Evidence Based Practice Unit.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Section -->
+        <section class="pt-6 md:pt-[10vh] pb-12 md:pb-[20vh] container">
+            <div class="grid md:grid-cols-2 gap-6 items-center md:gap-24">
+                <div>
+                    <h3 class="text-xl max-w-lg mb-6">
+                        “A well-considered innovation with the potential to make a lasting contribution to the
+                        welfare of young people with mental illness.”</h3>
+                    <p class="max-w-md text-sm text-primary">Endorsement for RESILIENT by the Royal College of
+                        Psychiatrists’ Faculty of Child & Adolescent Psychiatry.</p>
+                </div>
+                <div class="md:-ml-12 md:w-[calc(100%+3rem)]">
+                    <img class="w-full h-auto" sizes="(max-width: 48rem) 100vw, 48rem"
+                        src="https://resilient.letsdance.agency/images/running-in-tunnel.jpg" srcset="https://resilient.letsdance.agency/glide/images/running-in-tunnel.jpg?width=400 400w, https://resilient.letsdance.agency/glide/images/running-in-tunnel.jpg?width=800 800w, https://resilient.letsdance.agency/glide/images/running-in-tunnel.jpg?width=1200 1200w, https://resilient.letsdance.agency/glide/images/running-in-tunnel.jpg?width=1600 1600w, https://resilient.letsdance.agency/glide/images/running-in-tunnel.jpg?width=2000 2000w, https://resilient.letsdance.agency/glide/images/running-in-tunnel.jpg?width=2500 2500w, https://resilient.letsdance.agency/glide/images/running-in-tunnel.jpg?width=3000 3000w, https://resilient.letsdance.agency/glide/images/running-in-tunnel.jpg?width=3500 3500w" style="max-width: 1920px" loading="lazy" />
+                </div>
+
+            </div>
+        </section>
+
+        <div class="flex justify-center pt-32 pb-[15vh] md:py-[20vh]">
+            <a target="_blank" href="https://pathway.org.uk">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-48 lg:w-64 h-auto" viewBox="0 0 397.36 124.74">
+    
+    <path fill="#fff" d="M47.4 124.74a7.84 7.84 0 0 1-6.75-3.89L24.99 93.87c-1.4-2.4-1.4-5.39-.02-7.8l15.54-27.05a7.827 7.827 0 0 1 6.74-3.92l27.1-.06 11.61-20.22-11.64-20.05-23.18.05L13.77 79.9A7.378 7.378 0 0 1 3.7 82.62 7.378 7.378 0 0 1 .98 72.55L40.36 3.99A7.83 7.83 0 0 1 47.11.07L78.3 0h.02c2.77 0 5.35 1.49 6.74 3.88l15.66 26.99c1.4 2.41 1.4 5.4.02 7.8L85.13 65.85c-.57.99-1.36 1.85-2.28 2.5-1.3.92-2.85 1.41-4.47 1.42l-27.1.06-11.54 20.1 11.64 20.05 23.18-.05 37.4-65.12a7.378 7.378 0 0 1 10.07-2.72 7.378 7.378 0 0 1 2.72 10.07l-39.4 68.6a7.827 7.827 0 0 1-6.74 3.92l-31.2.07h-.02Zm-.01-14.75Zm30.96-95.24ZM146.68 103.98V90.73h2.97v5.19h5.34v-5.19h2.97v13.25h-2.97v-5.25h-5.34v5.25h-2.97ZM168.07 102.78c-.96.94-2.12 1.41-3.47 1.41s-2.51-.47-3.47-1.41c-.96-.94-1.44-2.09-1.44-3.46s.48-2.52 1.44-3.46 2.12-1.41 3.47-1.41 2.51.47 3.47 1.41c.96.94 1.44 2.09 1.44 3.46s-.48 2.52-1.44 3.46Zm-4.95-1.84c.39.41.89.62 1.48.62s1.09-.21 1.48-.62c.39-.41.59-.95.59-1.62s-.2-1.21-.59-1.62c-.39-.41-.89-.62-1.48-.62s-1.09.21-1.48.62c-.39.41-.59.95-.59 1.62s.2 1.21.59 1.62ZM182.93 103.98v-4.83c0-1.43-.45-2.15-1.34-2.15-1.07 0-1.63.78-1.68 2.33v4.65h-2.82v-4.83c0-1.43-.45-2.15-1.34-2.15-.52 0-.93.2-1.23.61-.3.4-.45 1.02-.45 1.84v4.54h-2.82v-9.33h2.82v.95c.6-.77 1.39-1.16 2.39-1.16 1.31 0 2.26.55 2.87 1.64.27-.54.69-.94 1.23-1.22s1.1-.42 1.64-.42c1.13 0 2.01.37 2.62 1.12.62.75.92 1.78.92 3.1v5.32h-2.82ZM192.35 104.18c-1.41 0-2.59-.44-3.54-1.33-.95-.89-1.43-2.07-1.43-3.54s.47-2.55 1.4-3.48c.93-.93 2.1-1.39 3.51-1.39 1.31 0 2.41.4 3.3 1.19.9.8 1.34 1.92 1.34 3.36 0 .36-.02.69-.06.99h-6.78c.07.54.33.94.77 1.22s.94.42 1.51.42c.51 0 .96-.1 1.36-.31.4-.21.7-.46.9-.76l2.09 1.57c-.45.63-1.05 1.14-1.81 1.5-.76.37-1.62.55-2.58.55Zm-2.16-6.04h3.96c-.11-.46-.35-.81-.71-1.04s-.76-.35-1.21-.35c-.47 0-.9.12-1.29.35-.39.23-.63.58-.75 1.05ZM198.72 103.98v-14h2.82v14h-2.82ZM208.26 104.18c-1.41 0-2.58-.44-3.54-1.33s-1.43-2.07-1.43-3.54.47-2.55 1.4-3.48 2.1-1.39 3.51-1.39c1.31 0 2.41.4 3.3 1.19.9.8 1.34 1.92 1.34 3.36 0 .36-.02.69-.06.99H206c.08.54.33.94.77 1.22s.94.42 1.51.42c.51 0 .96-.1 1.36-.31.4-.21.7-.46.9-.76l2.09 1.57c-.45.63-1.05 1.14-1.81 1.5-.76.37-1.62.55-2.58.55Zm-2.17-6.04h3.96c-.11-.46-.35-.81-.71-1.04-.36-.24-.76-.35-1.21-.35-.47 0-.9.12-1.29.35-.39.23-.63.58-.75 1.05ZM217.83 104.18c-1.73 0-3.02-.56-3.88-1.68l1.87-1.7c.45.65 1.12.97 2.02.97.57 0 .86-.17.86-.52 0-.16-.08-.29-.22-.4-.15-.11-.45-.21-.91-.33l-.62-.15c-.88-.21-1.55-.58-2.01-1.12-.45-.53-.67-1.18-.64-1.94.02-.86.37-1.55 1.04-2.08s1.51-.79 2.55-.79c1.44 0 2.54.52 3.29 1.55l-1.83 1.51c-.4-.5-.89-.75-1.47-.75-.51 0-.77.16-.77.49 0 .3.26.52.78.67l.86.22c.9.24 1.58.59 2.04 1.05.47.47.7 1.1.7 1.89 0 .88-.35 1.62-1.05 2.21-.7.59-1.57.89-2.58.89ZM226.44 104.18c-1.73 0-3.02-.56-3.88-1.68l1.87-1.7c.45.65 1.12.97 2.02.97.57 0 .86-.17.86-.52 0-.16-.08-.29-.22-.4-.15-.11-.45-.21-.91-.33l-.62-.15c-.88-.21-1.55-.58-2.01-1.12-.45-.53-.67-1.18-.64-1.94.02-.86.37-1.55 1.04-2.08s1.51-.79 2.55-.79c1.44 0 2.54.52 3.29 1.55l-1.83 1.51c-.4-.5-.89-.75-1.47-.75-.51 0-.77.16-.77.49 0 .3.26.52.78.67l.86.22c.9.24 1.58.59 2.04 1.05.47.47.7 1.1.7 1.89 0 .88-.35 1.62-1.05 2.21-.7.59-1.57.89-2.58.89ZM240.53 104.18c-1.46 0-2.57-.38-3.34-1.14-.77-.76-1.16-1.72-1.16-2.87 0-.78.19-1.45.57-2s.92-1.06 1.61-1.53c-.91-.91-1.36-1.82-1.36-2.72s.36-1.72 1.09-2.4c.73-.68 1.65-1.02 2.75-1.02s2.02.34 2.74 1.02c.71.68 1.07 1.46 1.07 2.34 0 .75-.18 1.36-.55 1.83-.37.47-.91.92-1.63 1.34l2 1.92 1.18-1.38h3.38l-2.71 3.15 3.38 3.25h-3.7l-1.46-1.38c-.63.56-1.25.96-1.85 1.21-.6.25-1.27.37-2.02.37Zm-.04-2.46c.72 0 1.42-.29 2.09-.88l-2.52-2.43c-.86.57-1.29 1.19-1.29 1.85 0 .49.17.85.52 1.09.35.24.75.36 1.19.36Zm-.95-7.8c0 .19.06.37.18.56s.23.33.33.43.29.27.58.52l.02-.02c.42-.22.71-.43.87-.62.16-.19.23-.46.23-.81s-.11-.6-.32-.8c-.21-.2-.47-.3-.77-.3s-.58.1-.79.29c-.22.19-.33.44-.33.76ZM254.55 103.98V90.73h2.97v13.25h-2.97ZM259.85 103.98v-9.33h2.82v.95c.54-.77 1.4-1.16 2.59-1.16 1.13 0 2.02.38 2.66 1.14.64.76.96 1.76.96 3v5.39h-2.82v-4.91c0-1.38-.5-2.07-1.51-2.07-.56 0-1.01.21-1.36.62-.35.41-.52 1.02-.52 1.83v4.54h-2.82ZM275.49 104.18c-1.39 0-2.57-.46-3.53-1.38s-1.44-2.08-1.44-3.49.48-2.57 1.44-3.49c.96-.92 2.13-1.38 3.53-1.38.96 0 1.84.25 2.65.75.81.5 1.41 1.16 1.81 1.98l-2.46 1.31c-.41-.93-1.08-1.4-2-1.4-.6 0-1.1.21-1.51.63-.41.42-.62.96-.62 1.61s.21 1.18.62 1.6c.41.42.91.63 1.51.63.92 0 1.59-.47 2-1.4l2.46 1.31c-.4.82-1 1.48-1.81 1.98s-1.69.75-2.65.75ZM281.46 103.98v-14h2.82v14h-2.82ZM290.01 104.18c-1.13 0-2-.38-2.61-1.14-.61-.76-.92-1.79-.92-3.08v-5.32h2.82v4.83c0 1.43.48 2.15 1.44 2.15 1.17 0 1.75-.82 1.75-2.45v-4.54h2.82v9.33h-2.82v-.95c-.54.77-1.36 1.16-2.48 1.16ZM300.84 104.18c-1.73 0-3.02-.56-3.88-1.68l1.87-1.7c.45.65 1.12.97 2.02.97.57 0 .86-.17.86-.52 0-.16-.08-.29-.22-.4-.15-.11-.45-.21-.91-.33l-.62-.15c-.88-.21-1.55-.58-2.01-1.12-.45-.53-.67-1.18-.64-1.94.02-.86.37-1.55 1.04-2.08s1.51-.79 2.55-.79c1.44 0 2.54.52 3.29 1.55l-1.83 1.51c-.4-.5-.89-.75-1.47-.75-.51 0-.77.16-.77.49 0 .3.26.52.78.67l.86.22c.9.24 1.58.59 2.04 1.05.47.47.7 1.1.7 1.89 0 .88-.35 1.62-1.05 2.21-.7.59-1.57.89-2.58.89ZM307.63 93.38c-.47 0-.88-.17-1.23-.51-.35-.34-.52-.76-.52-1.24s.17-.9.52-1.24.76-.51 1.23-.51c.5 0 .92.17 1.26.51.34.34.51.76.51 1.24s-.17.9-.51 1.24-.76.51-1.26.51Zm-1.4 10.6v-9.33h2.82v9.33h-2.82ZM319.17 102.78c-.96.94-2.12 1.41-3.47 1.41s-2.51-.47-3.47-1.41-1.44-2.09-1.44-3.46.48-2.52 1.44-3.46 2.12-1.41 3.47-1.41 2.51.47 3.47 1.41c.96.94 1.44 2.09 1.44 3.46s-.48 2.52-1.44 3.46Zm-4.96-1.84c.39.41.89.62 1.48.62s1.09-.21 1.48-.62c.39-.41.59-.95.59-1.62s-.2-1.21-.59-1.62c-.39-.41-.89-.62-1.48-.62s-1.09.21-1.48.62c-.39.41-.59.95-.59 1.62s.2 1.21.59 1.62ZM322.34 103.98v-9.33h2.82v.95c.54-.77 1.4-1.16 2.59-1.16 1.13 0 2.02.38 2.66 1.14.64.76.96 1.76.96 3v5.39h-2.82v-4.91c0-1.38-.5-2.07-1.51-2.07-.56 0-1.01.21-1.36.62-.35.41-.52 1.02-.52 1.83v4.54h-2.82ZM338.02 103.98V90.73h2.97v5.19h5.34v-5.19h2.97v13.25h-2.97v-5.25h-5.34v5.25h-2.97ZM356.01 104.18c-1.41 0-2.58-.44-3.54-1.33s-1.43-2.07-1.43-3.54.47-2.55 1.4-3.48 2.1-1.39 3.51-1.39c1.31 0 2.41.4 3.3 1.19.9.8 1.34 1.92 1.34 3.36 0 .36-.02.69-.06.99h-6.78c.08.54.33.94.77 1.22s.94.42 1.51.42c.51 0 .96-.1 1.36-.31.4-.21.7-.46.9-.76l2.09 1.57c-.45.63-1.05 1.14-1.81 1.5-.76.37-1.62.55-2.58.55Zm-2.16-6.04h3.96c-.11-.46-.35-.81-.71-1.04-.36-.24-.76-.35-1.21-.35-.47 0-.9.12-1.29.35-.39.23-.63.58-.75 1.05ZM366.15 104.18c-1.21 0-2.23-.48-3.07-1.44-.84-.96-1.26-2.1-1.26-3.43s.42-2.48 1.26-3.43 1.86-1.44 3.07-1.44c1.07 0 1.92.38 2.54 1.14v-.93h2.82v9.33h-2.82v-.93c-.62.76-1.47 1.14-2.54 1.14Zm-.91-3.21c.39.44.91.65 1.54.65s1.15-.22 1.54-.65c.39-.44.59-.99.59-1.66s-.2-1.23-.59-1.66c-.39-.44-.91-.65-1.54-.65s-1.15.22-1.54.65-.59.99-.59 1.66.2 1.23.59 1.66ZM373.82 103.98v-14h2.82v14h-2.82ZM383.71 104.09c-1.09 0-1.99-.3-2.7-.91s-1.05-1.48-1.05-2.62v-3.47h-1.87v-2.45h1.87v-2.59h2.82v2.59h2.61v2.45h-2.61v2.89c0 .56.12.96.37 1.21s.65.37 1.21.37c.42 0 .77-.06 1.03-.17v2.5c-.41.12-.97.19-1.68.19ZM389.98 103.98h-2.82v-14h2.82v5.62c.54-.77 1.4-1.16 2.59-1.16 1.13 0 2.02.38 2.66 1.14.64.76.96 1.76.96 3v5.39h-2.82v-4.91c0-1.38-.5-2.07-1.51-2.07-.56 0-1.01.21-1.36.62-.35.41-.52 1.02-.52 1.83v4.54ZM172.68 33.25c2.97 2.91 4.46 6.52 4.46 10.8s-1.49 7.88-4.46 10.77c-2.98 2.89-6.69 4.34-11.15 4.34h-5.12v14.05h-9.93V28.88h15.05c4.45 0 8.17 1.46 11.15 4.37Zm-5.15 10.8c0-1.66-.57-3.05-1.72-4.15-1.14-1.1-2.61-1.65-4.4-1.65h-5v11.61h5c1.75 0 3.21-.56 4.37-1.69 1.17-1.12 1.75-2.5 1.75-4.12ZM192.76 73.89c-4.04 0-7.46-1.6-10.27-4.81-2.81-3.2-4.21-7.03-4.21-11.49s1.41-8.28 4.21-11.49c2.81-3.21 6.23-4.81 10.27-4.81 3.58 0 6.41 1.27 8.49 3.81v-3.12h9.43V73.2h-9.43v-3.12c-2.08 2.54-4.91 3.81-8.49 3.81Zm-3.03-10.74c1.31 1.46 3.03 2.19 5.15 2.19s3.84-.73 5.15-2.19c1.31-1.46 1.97-3.31 1.97-5.56s-.66-4.1-1.97-5.56-3.03-2.19-5.15-2.19-3.84.73-5.15 2.19-1.97 3.31-1.97 5.56.66 4.1 1.97 5.56ZM233.09 73.58c-3.66 0-6.67-1.01-9.02-3.03-2.35-2.02-3.53-4.94-3.53-8.77V50.17h-6.24v-8.18h6.24v-8.68h9.43v8.68h8.74v8.18h-8.74v9.68c0 1.87.42 3.23 1.25 4.06s2.19 1.25 4.06 1.25c1.42 0 2.56-.19 3.43-.56v8.37c-1.37.42-3.25.62-5.62.62ZM252.82 73.21h-9.43V26.38h9.43v18.79c1.79-2.58 4.68-3.87 8.68-3.87 3.79 0 6.75 1.27 8.9 3.81 2.14 2.54 3.22 5.89 3.22 10.05V73.2h-9.43V56.78c0-4.62-1.69-6.93-5.06-6.93-1.87 0-3.39.69-4.56 2.06s-1.75 3.41-1.75 6.12V73.2ZM306.14 73.21l-5.37-16.48-5.31 16.48h-9.49l-10.3-31.22h10.11l5.43 19.17 5.93-19.17h7.24l5.93 19.17 5.43-19.17h10.12l-10.24 31.22h-9.49ZM340.73 73.89c-4.04 0-7.46-1.6-10.27-4.81-2.81-3.2-4.21-7.03-4.21-11.49s1.4-8.28 4.21-11.49c2.81-3.21 6.23-4.81 10.27-4.81 3.58 0 6.41 1.27 8.49 3.81v-3.12h9.43V73.2h-9.43v-3.12c-2.08 2.54-4.91 3.81-8.49 3.81Zm-3.03-10.74c1.31 1.46 3.03 2.19 5.15 2.19s3.84-.73 5.15-2.19c1.31-1.46 1.97-3.31 1.97-5.56s-.66-4.1-1.97-5.56-3.03-2.19-5.15-2.19-3.84.73-5.15 2.19-1.97 3.31-1.97 5.56.66 4.1 1.97 5.56ZM377.94 86.25h-10.18l6.49-14.86-12.99-29.41h10.3l7.74 19.29 7.68-19.29h10.37l-19.42 44.27Z" class="prefix__cls-1"/>
+</svg>
+            </a>
+
+        </div>
+    </main>
+</body>
+
 </html>

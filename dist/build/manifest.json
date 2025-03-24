@@ -1,11 +1,15 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-CJ70LGK8.css",
+    "file": "assets/app-DznmuS_u.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
+  "resources/images/noise.png": {
+    "file": "assets/noise-qFOBFnw-.png",
+    "src": "resources/images/noise.png"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-Xaw6OIO1.js",
+    "file": "assets/app-7Gdm1L_r.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true

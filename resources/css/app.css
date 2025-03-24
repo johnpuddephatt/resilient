@@ -1,3 +1,121 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+
+@theme {
+  --font-sans:
+    "Nunito Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --animate-pulse: pulsar 2s infinite alternate;
+
+  --color-primary: #ff8cf1;
+
+  @keyframes pulsar {
+    0% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 0.25;
+    }
+  }
+
+  --animate-slide-left: slideLeft 4s both;
+
+  @keyframes slideLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(2.5%) skewX(15deg);
+    }
+    /* 50% {
+      transform: translateX(2em) skewX(5deg);
+    } */
+    100% {
+      opacity: 1;
+      transform: translateX(0) scaleX(1) skewX(0deg);
+    }
+  }
+
+  --animate-hue-rotate: hueRotate 5s cubic-bezier(0.28, 0.915, 0.525, 1.005)
+    alternate infinite both;
+
+  @keyframes hueRotate {
+    0% {
+      opacity: 0.25;
+    }
+    25% {
+      opacity: 0.25;
+    }
+    50% {
+      filter: hue-rotate(-60deg);
+    }
+  }
+
+  --band: to right, black, black 20%, #dd2d33, #393dd3 70%, black 90%, black;
+  --noise: url("../images/noise.png");
+}
+
+.animate-duration-500 path {
+  animation-duration: 250ms !important;
+}
+
+.animate-delay-100 {
+  animation-delay: 100ms !important;
+}
+.animate-delay-200 {
+  animation-delay: 200ms !important;
+}
+.animate-delay-300 {
+  animation-delay: 300ms !important;
+}
+.animate-delay-400 {
+  animation-delay: 400ms !important;
+}
+.animate-delay-500 {
+  animation-delay: 500ms !important;
+}
+.animate-delay-600 {
+  animation-delay: 600ms !important;
+}
+.animate-delay-700 {
+  animation-delay: 700ms !important;
+}
+.animate-delay-800 {
+  animation-delay: 800ms !important;
+}
+.animate-delay-900 {
+  animation-delay: 900ms !important;
+}
+
+.animate-delay-1000 {
+  animation-delay: 1000ms !important;
+}
+.animate-delay-2000 {
+  animation-delay: 2000ms;
+}
+.animate-delay-2500 {
+  animation-delay: 2500ms;
+}
+.animate-delay-3000 {
+  animation-delay: 3000ms;
+}
+
+.animate path {
+  @apply animate-slide-left;
+}
+
+.animate-out path {
+  animation-direction: reverse;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (min-width: 40rem) {
+    padding-inline: 2rem;
+  }
+}
+
+.prose {
+  @apply space-y-3 text-gray-300 max-w-[60ch];
+}
