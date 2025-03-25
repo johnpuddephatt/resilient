@@ -10,7 +10,7 @@
     <link rel="icon" href="{{ asset('favicon.svg') }}" type="image/svg+xml">
     <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="32x32">
 
-    <meta name="og:image" content="{{ asset('opengraph.jpg') }}">
+    <meta property="og:image" content="{{ asset('opengraph.jpg') }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
