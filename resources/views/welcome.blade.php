@@ -67,7 +67,7 @@
                 <p data-animate-position="start" data-animate data-animate-from-alpha="0" data-animate
                     data-animate-to-alpha="1" data-animate-from-y="50" data-animate-from-scale="0.9"
                     data-animate-to-scale="1" data-animate-to-y="0" data-animate-duration="15"
-                    class="max-w-xs md:max-w-none text-balance text-3xl">Adversity is not destiny.</p>
+                    class="max-w-xs md:max-w-none text-balance text-4xl">Adversity is not destiny.</p>
 
                 <img data-animate-position="end" data-animate data-animate-from-alpha="0" data-animate-to-alpha="1"
                     data-animate-from-y="000" data-animate-to-y="800" data-animate-from-rotation="0"
@@ -226,7 +226,7 @@
         </section>
 
         <!-- Funders Section -->
-        <section id="partners" class="border-t border-gray-800 pt-8 md:pt-[10vh] pb-8 md:pb-[10vh] container ">
+        <section id="partners" class="border-t border-gray-700 pt-8 md:pt-[10vh] pb-8 md:pb-[10vh] container ">
             <div class="grid md:grid-cols-2 gap-6  md:gap-24">
                 <div>
                     <h2 class="text-xs uppercase text-primary mb-2">Funders &amp; partners</h2>
@@ -241,7 +241,7 @@
         </section>
 
         <!-- Partners Section -->
-        <section class="border-b border-gray-800 pb-6 md:pb-[10vh] container">
+        <section class="border-b border-gray-700 pb-6 md:pb-[10vh] container">
             <div class="grid md:grid-cols-2 gap-6  md:gap-24">
                 <div>
                     <h3 class="text-2xl mb-4 md:mb-8">Our partners</h3>
