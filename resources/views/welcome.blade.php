@@ -68,13 +68,11 @@
                     data-animate-to-alpha="1" data-animate-from-y="50" data-animate-from-scale="0.9"
                     data-animate-to-scale="1" data-animate-to-y="0" data-animate-duration="15"
                     class="max-w-xs md:max-w-none text-balance text-4xl">Adversity is not destiny.</p>
-
                 <img data-animate-position="end" data-animate data-animate-from-alpha="0" data-animate-to-alpha="1"
                     data-animate-from-y="000" data-animate-to-y="800" data-animate-from-rotation="0"
                     data-animate-to-rotation="20" data-animate-duration="25"
                     class="-z-10 w-full -left-[20%] top-[80%] will-change-transform origin-center  absolute "
                     src="{{ asset('images/intro.png') }}" />
-
             </section>
 
             <!-- First Content Section -->
@@ -86,13 +84,14 @@
                             young people at a critical moment in their lives.</h3>
                     </div>
                     <div class="prose md:mt-6">
-                        <p>RESILIENT is a creative learning intervention for young people aged 15-18, who are under the care
+                        <p>RESILIENT is a creative learning intervention for young people aged 15 - 18, who are under the
+                            care
                             of
                             NHS child and adolescent mental health services (CAMHS).
                         </p>
                         <p>
                             It uses a purpose-made, short film thriller to explore adversity, self-worth and the power of
-                            human connection - so as to help young people prepare for life after they are discharged from
+                            human connection – so as to help young people prepare for life after they are discharged from
                             care.
                         </p>
                         <p>
@@ -101,7 +100,8 @@
                             and clinicians, homelessness researchers, and an Oscar-winning team of filmmakers. It is
                             independently evaluated by the Anna Freud Centre for Children and Families’ Evidence Based
                             Practice
-                            Unit.
+                            Unit. RESILIENT is hosted by the homeless and
+                            inclusion health charity Pathway.
                         </p>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                     <div class="prose">
                         <p><em>The Mouse</em> was made by a team of leading film industry professionals, including Judy
                             Counihan,
-                            producer of the two Oscar-wining films <em>No Man’s Land</em> and <em>Antonia’s Line</em>;
+                            producer of the two Oscar-winning films <em>No Man’s Land</em> and <em>Antonia’s Line</em>;
                             Walter Donohue, Story
                             Editor of the iconic <em>Paris</em>, <em>Texas</em> and <em>28 Days Later</em>; and Casting
                             Director Des Hamilton, renowned
@@ -172,7 +172,7 @@
             <div>
                 <h2 class="text-sm uppercase text-primary mb-2">Context & Purpose</h2>
                 <h3 class="text-2xl mb-8">A unique opportunity</h3>
-                <p class="font-medium max-w-4xl text-balance text-lg">As they embark on their early adult lives, young
+                <p class="font-medium max-w-7xl text-balance text-lg">As they embark on their early adult lives, young
                     people who have
                     experienced abuse and neglect as children, and developed serious mental illness as teenagers, are at the
                     highest possible risk of falling into crises of isolation, despair, and rough sleeping.
@@ -194,13 +194,13 @@
 
                     <p>Many of these young people are treated by NHS child and adolescent mental health services, for
                         sustained periods of time, as they approach the age of eighteen. RESILIENT has been created to help
-                        staff at these services fulfil the unique opportunity they have - to work creatively and generously
+                        staff at these services fulfil the unique opportunity they have – to work creatively and generously
                         with these young people, and help them navigate safely through the next phase of their lives.
                     </p>
                     <p>
                         Pathway is collaborating now with CAMHS services in England to support their use of RESILIENT. And
-                        we are developing a series of related projects and interventions - in partnership with experts by
-                        experience, CAMHS services, researchers, and creative professionals - to further help NHS child and
+                        we are developing a series of related projects and interventions – in partnership with experts by
+                        experience, CAMHS services, researchers, and creative professionals – to further help NHS child and
                         adolescent mental healthcare services to meet the needs of the most vulnerable children under their
                         care.
                     </p>
@@ -209,7 +209,7 @@
 
             <div class="grid md:grid-cols-2 pt-16 md:pt-[20vh] items-center gap-6  md:gap-24">
                 <div>
-                    <blockquote class="max-w-lg text-xl font-medium prose text-white mb-6">
+                    <blockquote class="!max-w-lg text-xl font-medium prose text-white mb-6">
                         <p>“Watching and discussing <em>The Mouse</em> has engaged and stimulated our most hard-to-reach
                             young
                             people.</p>
@@ -234,7 +234,7 @@
                     <h3 class="text-2xl mb-4 md:mb-8">Our funders</h3>
                 </div>
                 <div>
-                    <img class="pt-6 w-full h-auto" sizes="(max-width: 48rem) 100vw, 48rem"
+                    <img class="pt-6 w-full h-auto max-w-lg" sizes="(max-width: 48rem) 100vw, 48rem"
                         {{ glide()->src('images/logos2.png') }} />
                 </div>
             </div>
@@ -249,9 +249,9 @@
                 <div class="prose">
                     <p>RESILIENT was developed in partnership with patients, teachers and clinicians at Simmons House
                         Adolescent Unit
-                        (Whittington Health NHS) in Haringey, north-east London.</p>
+                        (Whittington Health NHS) in Haringey, North-East London.</p>
                     <p>Independent evaluation research is conducted by the Anna Freud Centre for Children and Families’
-                        Evidence Based Practice Unit.</p>
+                        Evidence-Based Practice Unit.</p>
                 </div>
             </div>
         </section>

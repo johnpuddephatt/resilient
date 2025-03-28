@@ -108,6 +108,15 @@
   animation-direction: reverse;
 }
 
+.underline {
+  text-decoration-color: rgba(255, 255, 255, 0.35);
+  transition: all;
+}
+
+a.underline:hover {
+  text-decoration-color: rgba(255, 255, 255, 1);
+}
+
 @utility container {
   margin-inline: auto;
   padding-inline: 1rem;
