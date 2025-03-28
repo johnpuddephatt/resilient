@@ -173,8 +173,8 @@
                 <h2 class="text-sm uppercase text-primary mb-2">Context & Purpose</h2>
                 <h3 class="text-2xl mb-8">A unique opportunity</h3>
                 <p class="font-medium max-w-7xl text-balance text-lg">As they embark on their early adult lives, young
-                    people who have
-                    experienced abuse and neglect as children, and developed serious mental illness as teenagers, are at the
+                    people who have experienced abuse and neglect as children, and developed serious mental illness as
+                    teenagers, are at the
                     highest possible risk of falling into crises of isolation, despair, and rough sleeping.
                 </p>
             </div>
@@ -192,7 +192,8 @@
 
                 <div class="prose">
 
-                    <p>Many of these young people are treated by NHS child and adolescent mental health services, for
+                    <p>Many of these young people are treated by NHS child and adolescent mental health services (CAMHS),
+                        for
                         sustained periods of time, as they approach the age of eighteen. RESILIENT has been created to help
                         staff at these services fulfil the unique opportunity they have – to work creatively and generously
                         with these young people, and help them navigate safely through the next phase of their lives.
@@ -201,7 +202,7 @@
                         Pathway is collaborating now with CAMHS services in England to support their use of RESILIENT. And
                         we are developing a series of related projects and interventions – in partnership with experts by
                         experience, CAMHS services, researchers, and creative professionals – to further help NHS child and
-                        adolescent mental healthcare services to meet the needs of the most vulnerable children under their
+                        adolescent mental healthcare services meet the needs of the most vulnerable children under their
                         care.
                     </p>
                 </div>
